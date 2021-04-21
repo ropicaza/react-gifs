@@ -5,7 +5,7 @@ import SearchBar from './search_bar';
 import Gif from './gif';
 import GifList from './gif_list';
 
-const GIPHY_APP_KEY = '12DrxtISS76ZFBiYGvHa8why0AEBpiFv'
+const GIPHY_APP_KEY = '12DrxtISS76ZFBiYGvHa8why0AEBpiFv';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
 
     this.state = {
       gifs: [],
-      selectedGifId: "dPIPDAF8hOlZC",
+      selectedGifId: "",
     };
 
     this.search = this.search.bind(this);
